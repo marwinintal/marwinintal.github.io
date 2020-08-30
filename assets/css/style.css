@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   #header h2 {
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
   }
   #header .social-links {
     margin-top: 15px;
@@ -130,6 +131,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header .container h1 {
     justify-content: center;
+  }
+  .credits {
+    display: none;
   }
 }
 
@@ -584,6 +588,18 @@ section .container {
 @media (max-width: 767px) {
   .testimonials {
     margin: 30px 10px;
+  }
+  #header .container h1 {
+    display: block !important;
+    text-align: center;
+  }
+  #header .container h1 img {
+    width: 15%;
+    margin-bottom: 15px;
+  }
+  #header h1 a {
+    width: 100%;
+    margin-left: 0 !important;
   }
 }
 
